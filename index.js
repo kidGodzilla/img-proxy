@@ -17,7 +17,7 @@ app.get('/', function(req, res) {
 	if (width) weserv = weserv += '&width='+width;
 	if (height) weserv = weserv += '&height='+height;
 
-	var weserv = 'http://images.weserv.nl/?url='+hostname+pathname;
+	var weserv = 'http://images.weserv.nl/?url='+hostname+pathname+'&t=square';
 	if (width) weserv = weserv += '&w='+width;
 	if (height) weserv = weserv += '&h='+height;
 
