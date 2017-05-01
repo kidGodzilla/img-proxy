@@ -1,0 +1,33 @@
+{
+  "name": "img-proxy",
+  "version": "0.5.0",
+  "description": "An image proxy using rsz.io and weserv.nl to proxy requests and resize images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "James Futhey <futhey@gmail.com> (http://jamesfuthey.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidGodzilla/img-proxy.git"
+  },
+  "keywords": [
+    "image",
+    "proxy",
+    "nodejs",
+    "now.sh",
+    "resize",
+    "cache"
+  ],
+  "bugs": {
+    "url": "https://github.com/kidGodzilla/img-proxy/issues"
+  },
+  "homepage": "https://github.com/kidGodzilla/img-proxy#readme"
+}
